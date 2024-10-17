@@ -1,0 +1,119 @@
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    gap: 15px;
+    background-color: #E8F1FF;
+    padding: 150px;
+}
+
+.search h1, 
+.search p{
+    color: #2D2D2D;
+}
+
+.search img{
+    width: 20px;
+}
+
+.search .searchInput{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    border-radius: 120px;
+    padding: 12px 50px;
+}
+
+.inputSearch,
+.inputLocation{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.inputSearch input,
+.inputLocation input{
+    width: 210px;
+    height: 40px;
+    border: none;
+    padding: 5px;
+}
+
+.search .button{
+    color: #2D2D2D;
+    padding: 10px;
+    border-radius: 120px;
+    background-color: #0866FF;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+.search .button:hover{
+    background-color: #2579FF;
+}
+
+@media (min-width: 320px) and (max-width:720px){
+    .search{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 110vh;
+        padding: 100px;
+        gap: 8px;
+    }
+    
+    .search h1, 
+    .search p{
+        color: #2D2D2D;
+    }
+    
+    .search img{
+        width: 20px;
+    }
+    
+    .search .searchInput{
+        width: 720px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFF;
+        border-radius: 0px;
+        padding: 10px;
+    }
+    
+    .inputSearch,
+    .inputLocation{
+        gap: 4px;
+   
+    }
+    
+    .inputSearch input,
+    .inputLocation input{
+        width: 180px;
+        height: 35px;
+        border: none;
+        padding: 5px;
+        font-size: 15px;
+    }
+    
+    .search .button{
+        color: #2D2D2D;
+        padding: 10px;
+        border-radius: 120px;
+        background-color: #0866FF;
+        color: #FFF;
+        border: none;
+    }
+    
+    .search .button:hover{
+        background-color: #2579FF;
+    }
+}
